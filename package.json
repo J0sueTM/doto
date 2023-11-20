@@ -1,0 +1,17 @@
+{
+  "name": "doto",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "npx shadow-cljs watch app",
+    "release": "npx shadow-cljs release app",
+    "build-report": "npx shadow-cljs run shadow.cljs.build-report app target/build-report.html"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.26.0"
+  },
+  "dependencies": {
+    "highlight.js": "11.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
